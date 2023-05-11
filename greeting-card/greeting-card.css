@@ -10,20 +10,20 @@
 }
 
 .ipl-div {
-    width: 300px;
-    min-height: 200px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+  width: 300px;
+  min-height: 200px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
 }
 
 .ipl-div:hover {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 body {
   background-color: rgb(211, 211, 211, 0.2);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -42,9 +42,9 @@ body {
 }
 
 mark {
-    background-color: lightblue;
-    padding: 4px;
-    border-radius: 20%;
+  background-color: lightblue;
+  padding: 4px;
+  border-radius: 20%;
 }
 
 .card-image img {
@@ -60,7 +60,7 @@ mark {
 }
 
 iframe {
-    border-radius: 30px;
+  border-radius: 30px;
 }
 
 .card-content {
@@ -86,35 +86,35 @@ iframe {
 }
 
 section {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-heading {
-    align-self: flex-start;
-    line-height: 0%;
-    margin-top: 20px;
+  align-self: flex-start;
+  line-height: 0%;
+  margin-top: 20px;
 }
 
 .ranking-card {
-    width: 100px;
-    height: 100px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
 }
 
 .ranking-card:hover {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .ranking-container {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 hr {
-    width: 100px;
+  width: 100px;
 }
 
 @keyframes typing {
@@ -144,20 +144,19 @@ hr {
 }
 
 ::-webkit-scrollbar {
-    width: 8px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: #888;
-    border-radius: 10px;
-    border: 2px solid #f1f1f1;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #555;
-  }
-  
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+  border: 2px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
