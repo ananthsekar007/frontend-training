@@ -33,9 +33,10 @@ a:hover {
 .container {
   display: flex;
   padding: 50px;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
   row-gap: 20px;
+  column-gap: 20px;
 }
 
 .card {
